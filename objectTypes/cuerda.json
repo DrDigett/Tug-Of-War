@@ -1,0 +1,52 @@
+{
+	"name": "cuerda",
+	"plugin-id": "Sprite",
+	"sid": 140838524130796,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6044148,
+						"collisionPoly": {
+							"points": [
+								0.003999902502691839,
+								0.300000011920929,
+								1,
+								0.3040000609080016,
+								1,
+								0.6480000836690306,
+								0,
+								0.6479999371846498
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 542420088260039,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

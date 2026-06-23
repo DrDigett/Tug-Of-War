@@ -1,0 +1,66 @@
+{
+	"name": "EventosGameOver",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 880589576234126,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "BotonVolver"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 945362260904037,
+					"parameters": {
+						"reset-static": false
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 843343064524488,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 258414674898516
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 296540191152698,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "BotonSalir"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 393668541368352,
+					"parameters": {
+						"layout": "MenuPrincipal"
+					}
+				}
+			],
+			"sid": 554751459203298
+		}
+	],
+	"sid": 205830697292437
+}

@@ -1,0 +1,10 @@
+{
+	"name": "BotonJugar",
+	"plugin-id": "Text",
+	"sid": 690889045667153,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

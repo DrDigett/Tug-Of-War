@@ -1,0 +1,38 @@
+{
+	"name": "EventosMenu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 546411894577447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 495792991317534,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "BotonJugar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 921323731243675,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 811549031586509
+		}
+	],
+	"sid": 739834765650119
+}

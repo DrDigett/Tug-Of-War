@@ -1,0 +1,605 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "PosicionCuerda",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "0 inicial, -3 P2 pierde, +3 P1 pierde",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 545486965067491
+		},
+		{
+			"eventType": "variable",
+			"name": "MetaP1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 660603848232615
+		},
+		{
+			"eventType": "variable",
+			"name": "MetaP2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 467940165752263
+		},
+		{
+			"eventType": "variable",
+			"name": "RondaActiva",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "False",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 512136701352959
+		},
+		{
+			"eventType": "variable",
+			"name": "PuntosP1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 266761014652576
+		},
+		{
+			"eventType": "variable",
+			"name": "PuntosP2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 301825056033305
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 744257386482949
+				}
+			],
+			"actions": [
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP1",
+					"sid": 304678320242073,
+					"parameters": {
+						"x": "0",
+						"value": "87"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP1",
+					"sid": 640112791031569,
+					"parameters": {
+						"x": "1",
+						"value": "65"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP1",
+					"sid": 908899309131421,
+					"parameters": {
+						"x": "2",
+						"value": "83"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP1",
+					"sid": 163147212164136,
+					"parameters": {
+						"x": "3",
+						"value": "68"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP2",
+					"sid": 266880702808662,
+					"parameters": {
+						"x": "0",
+						"value": "38"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP2",
+					"sid": 736424393984810,
+					"parameters": {
+						"x": "1",
+						"value": "37"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP2",
+					"sid": 936831269290819,
+					"parameters": {
+						"x": "2",
+						"value": "40"
+					}
+				},
+				{
+					"id": "set-at-x",
+					"objectClass": "ArrayP2",
+					"sid": 101061066867448,
+					"parameters": {
+						"x": "3",
+						"value": "39"
+					}
+				}
+			],
+			"sid": 573494010532914
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 815000650065336
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 234329115763465,
+					"parameters": {
+						"variable": "RondaActiva"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 643765502751373,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 412352303617846,
+							"parameters": {
+								"first-value": "Keyboard.LastKeyCode",
+								"comparison": 0,
+								"second-value": "MetaP1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 691835963347591,
+							"parameters": {
+								"variable": "PuntosP1",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 913047770144089,
+							"parameters": {
+								"variable": "RondaActiva",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP2",
+							"sid": 378748084689986,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP1",
+							"sid": 114303683898071,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 249817591579337,
+							"parameters": {
+								"variable": "MetaP1",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 367783405929578,
+							"parameters": {
+								"variable": "MetaP2",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 485861068979747,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 980877294084358,
+									"parameters": {
+										"variable": "PuntosP1",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 129996469402545,
+									"parameters": {
+										"variable": "PosicionCuerda",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 513170487992673,
+									"parameters": {
+										"variable": "PuntosP1",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 128013175464668,
+									"parameters": {
+										"variable": "PuntosP2",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 121357796253697
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 407677176962962,
+							"parameters": {
+								"first-value": "Keyboard.LastKeyCode",
+								"comparison": 0,
+								"second-value": "MetaP2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 552568382123491,
+							"parameters": {
+								"variable": "PuntosP2",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 551264009917173,
+							"parameters": {
+								"variable": "RondaActiva",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP1",
+							"sid": 266397875582877,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP2",
+							"sid": 867028552041788,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 155266555276444,
+							"parameters": {
+								"variable": "MetaP2",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 633881790316498,
+							"parameters": {
+								"variable": "MetaP1",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 516951239085002,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 254790484567743,
+									"parameters": {
+										"variable": "PuntosP2",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 888812773453753,
+									"parameters": {
+										"variable": "PosicionCuerda",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 448509018374652,
+									"parameters": {
+										"variable": "PuntosP1",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 924659796722599,
+									"parameters": {
+										"variable": "PuntosP2",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 176583341299428
+						}
+					]
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 326037593669888
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "TextoP1",
+					"sid": 745441903580149,
+					"parameters": {
+						"text": "Keyboard.StringFromKeyCode(MetaP1)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TextoP2",
+					"sid": 909351342671111,
+					"parameters": {
+						"text": "Keyboard.StringFromKeyCode(MetaP2)"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "Jugador1",
+					"sid": 598705683694069,
+					"parameters": {
+						"x": "400 + (PosicionCuerda * 150)"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "Jugador2",
+					"sid": 435738394669809,
+					"parameters": {
+						"x": "1500 + (PosicionCuerda * 150)"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "cuerda",
+					"sid": 798160978217493,
+					"parameters": {
+						"x": "901 + (PosicionCuerda * 150)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TextoPuntosP1",
+					"sid": 767499519452022,
+					"parameters": {
+						"text": "\"Puntos: \" & PuntosP1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TextoPuntosP2",
+					"sid": 394509810021095,
+					"parameters": {
+						"text": "\"Puntos: \" & PuntosP2"
+					}
+				}
+			],
+			"sid": 245884996683529
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 878026411969103,
+					"parameters": {
+						"variable": "RondaActiva"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 951686958397822
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "TextoP1",
+					"sid": 971285883207000,
+					"parameters": {
+						"text": "Keyboard.StringFromKeyCode(MetaP1)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TextoP2",
+					"sid": 313934216170693,
+					"parameters": {
+						"text": "Keyboard.StringFromKeyCode(MetaP2)"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 957602233706459,
+					"parameters": {
+						"seconds": "choose(3,4,5,6,7,8)",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 986704238514651,
+					"parameters": {
+						"variable": "MetaP1",
+						"value": "ArrayP1.At(int(random(4)))"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 477773226895322,
+					"parameters": {
+						"variable": "MetaP2",
+						"value": "ArrayP2.At(int(random(4)))"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 449980905189059,
+					"parameters": {
+						"variable": "RondaActiva",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 293002378422099
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 215993444140585,
+					"parameters": {
+						"variable": "PosicionCuerda",
+						"comparison": 0,
+						"value": "3"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 101117145422820,
+					"parameters": {
+						"variable": "PosicionCuerda",
+						"comparison": 0,
+						"value": "-3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 134756954256644,
+					"parameters": {
+						"variable": "RondaActiva",
+						"value": "false"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 792855160124128,
+					"parameters": {
+						"seconds": "3.0",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 995418832613549,
+					"parameters": {
+						"layout": "MenuGameOver"
+					}
+				}
+			],
+			"sid": 911379617023151,
+			"isOrBlock": true
+		}
+	],
+	"sid": 471275929427028
+}
