@@ -446,8 +446,8 @@
 				},
 				{
 					"id": "set-x",
-					"objectClass": "cuerda",
-					"sid": 798160978217493,
+					"objectClass": "TiledBackground",
+					"sid": 393882504273456,
 					"parameters": {
 						"x": "901 + (PosicionCuerda * 150)"
 					}

@@ -1,7 +1,7 @@
 {
-	"name": "Preview4",
+	"name": "wall",
 	"plugin-id": "Sprite",
-	"sid": 641500869848255,
+	"sid": 896910074868725,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,22 +12,22 @@
 			{
 				"frames": [
 					{
-						"width": 918,
-						"height": 515,
+						"width": 1680,
+						"height": 1136,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6227485,
+						"imageSpriteId": 3440188,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 805800873963703,
-				"name": "Animation 1",
+				"sid": 651637595066260,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

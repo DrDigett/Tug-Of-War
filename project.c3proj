@@ -42,6 +42,13 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -55,7 +62,6 @@
 			"Sprite",
 			"Jugador1",
 			"Jugador2",
-			"cuerda",
 			"TeclasDisponibles",
 			"ArrayP1",
 			"ArrayP2",
@@ -70,11 +76,11 @@
 			"Mouse",
 			"BotonVolver",
 			"BotonSalir",
-			"Preview",
-			"Preview2",
-			"Preview3",
-			"Prototipo",
-			"Preview4"
+			"TiledBackground",
+			"wall",
+			"Text",
+			"wallpuas",
+			"wallmultitud"
 		],
 		"subfolders": []
 	},
@@ -89,7 +95,8 @@
 		"items": [
 			"Escena 1",
 			"MenuPrincipal",
-			"MenuGameOver"
+			"MenuGameOver",
+			"Store!"
 		],
 		"subfolders": []
 	},
@@ -97,7 +104,8 @@
 		"items": [
 			"Hoja de eventos 1",
 			"EventosMenu",
-			"EventosGameOver"
+			"EventosGameOver",
+			"EventosStore!"
 		],
 		"subfolders": []
 	},

@@ -1,7 +1,7 @@
 {
-	"name": "Prototipo",
+	"name": "wallmultitud",
 	"plugin-id": "Sprite",
-	"sid": 886568292317483,
+	"sid": 541169662524563,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,21 +12,21 @@
 			{
 				"frames": [
 					{
-						"width": 420,
-						"height": 420,
+						"width": 1680,
+						"height": 226,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4857366,
+						"imageSpriteId": 2166833,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 783715189324514,
+				"sid": 272350688128436,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
