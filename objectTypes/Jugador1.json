@@ -46,6 +46,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4642857142857143,
+								"y": 0.18571428571428572
+							}
+						],
 						"duration": 1,
 						"tag": ""
 					}

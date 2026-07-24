@@ -26,7 +26,7 @@
 						"x": 959,
 						"y": 621,
 						"width": 2087.5063308911913,
-						"height": 1411.5518999359485,
+						"height": 1411.5518999359488,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -56,8 +56,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 443,
-						"y": 630,
+						"x": 422,
+						"y": 728,
 						"width": 314.085106,
 						"height": 350.255561,
 						"originX": 0.5,
@@ -90,7 +90,7 @@
 					"locked": false,
 					"world": {
 						"x": 1487,
-						"y": 621,
+						"y": 728,
 						"width": 314.085106,
 						"height": 350.255561,
 						"originX": 0.5,
@@ -138,8 +138,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 432,
-						"y": 349,
+						"x": 186,
+						"y": 468,
 						"width": 353,
 						"height": 117,
 						"originX": 0,
@@ -187,8 +187,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1206,
-						"y": 334,
+						"x": 1434,
+						"y": 453,
 						"width": 425,
 						"height": 126,
 						"originX": 0,
@@ -236,8 +236,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 85,
-						"y": 186,
+						"x": -225,
+						"y": 577,
 						"width": 280,
 						"height": 87,
 						"originX": 0,
@@ -285,8 +285,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1438,
-						"y": 186,
+						"x": 1937,
+						"y": 556,
 						"width": 324,
 						"height": 82,
 						"originX": 0,
@@ -329,7 +329,7 @@
 					"locked": false,
 					"world": {
 						"x": 960.0391164641702,
-						"y": 650.0732797025381,
+						"y": 781,
 						"width": 849.1719815983832,
 						"height": 152.356688476182,
 						"originX": 0.5,
@@ -398,6 +398,72 @@
 						"y": 1187,
 						"width": 2098.433760975764,
 						"height": 282.28930355983493,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Contador1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"sid": 912005576968235,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 457,
+						"y": 252,
+						"width": 887.3262614808734,
+						"height": 299.9085268061991,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Contador2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 29,
+					"sid": 667364639298462,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1463,
+						"y": 252,
+						"width": 887.3262614808734,
+						"height": 299.9085268061991,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

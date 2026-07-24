@@ -7,44 +7,28 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Title",
+					"type": "wall",
 					"properties": {
-						"text": "Tug Of War",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 200,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
 						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 16,
-					"sid": 410601859118627,
+					"uid": 23,
+					"sid": 184192294583427,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 197,
-						"y": 112,
-						"width": 1566,
-						"height": 305,
-						"originX": 0,
-						"originY": 0,
+						"x": 959,
+						"y": 621,
+						"width": 2087.5063308911913,
+						"height": 1411.5518999359488,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -56,44 +40,28 @@
 					}
 				},
 				{
-					"type": "BotonJugar",
+					"type": "Title",
 					"properties": {
-						"text": "JUGAR",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
 						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 15,
-					"sid": 929614443825753,
+					"uid": 25,
+					"sid": 589938423142200,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 843,
-						"y": 583,
-						"width": 549,
-						"height": 242,
-						"originX": 0,
-						"originY": 0,
+						"x": 960,
+						"y": 362,
+						"width": 780.9594945679589,
+						"height": 607.4129402195234,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -101,6 +69,105 @@
 							1
 						],
 						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Jugar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"sid": 594805360519075,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 960,
+						"y": 777.8061330481027,
+						"width": 506.55269789115783,
+						"height": 329.3076812294334,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Coins",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"sid": 368835855046300,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1647,
+						"y": 118,
+						"width": 589.1455025782604,
+						"height": 178.32606637957682,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Store",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 26,
+					"sid": 315574997757279,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 969,
+						"y": 930,
+						"width": 544.9105247131944,
+						"height": 354.24393576001154,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 1,
 						"angle": 0
 					}
 				},
@@ -137,10 +204,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 687,
-						"y": 728,
+						"x": 693,
+						"y": 884,
 						"width": 549,
-						"height": 242,
+						"height": 114.44559544904601,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -149,7 +216,56 @@
 							1,
 							1
 						],
-						"z": 0,
+						"z": 1,
+						"angle": 0
+					}
+				},
+				{
+					"type": "BotonJugar",
+					"properties": {
+						"text": "JUGAR",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 15,
+					"sid": 929614443825753,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 856,
+						"y": 720,
+						"width": 226.1884890484215,
+						"height": 117.44786077234443,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 1,
 						"angle": 0
 					}
 				}

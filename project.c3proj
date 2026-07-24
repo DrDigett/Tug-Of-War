@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 48703,
+	"savedWithRelease": 49500,
 	"name": "Tug Of War",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -47,19 +47,11 @@
 			"name": "Tiled Background",
 			"author": "Scirra",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
-			"author": "Scirra",
-			"bundled": false
 		}
 	],
 	"uniqueId": "pz8luw4zhhh",
 	"objectTypes": {
 		"items": [
-			"Sprite",
 			"Jugador1",
 			"Jugador2",
 			"TeclasDisponibles",
@@ -70,7 +62,6 @@
 			"TextoP2",
 			"TextoPuntosP1",
 			"TextoPuntosP2",
-			"Title",
 			"TitleGameOver",
 			"BotonJugar",
 			"Mouse",
@@ -80,7 +71,14 @@
 			"wall",
 			"Text",
 			"wallpuas",
-			"wallmultitud"
+			"wallmultitud",
+			"Sombrero_P1",
+			"Title",
+			"Jugar",
+			"Store",
+			"Coins",
+			"Contador1",
+			"Contador2"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,118 @@
+{
+	"name": "Sombrero_P1",
+	"plugin-id": "Sprite",
+	"sid": 300330285201537,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 840,
+						"height": 840,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9648932,
+						"collisionPoly": {
+							"points": [
+								0.2833333333333333,
+								0.09285714285714286,
+								0.830952380952381,
+								0.16428571428571428,
+								0.7702380952380953,
+								0.29642857142857143,
+								0.46904761904761905,
+								0.3726190476190476,
+								0.25595238095238093,
+								0.3238095238095238,
+								0.2369047619047619,
+								0.09761904761904762
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 840,
+						"height": 840,
+						"originX": 0.5095238095238095,
+						"originY": 0.35119047619047616,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4096101,
+						"collisionPoly": {
+							"points": [
+								0.2833333333333333,
+								0.09285714285714286,
+								0.830952380952381,
+								0.16428571428571428,
+								0.7702380952380953,
+								0.29642857142857143,
+								0.46904761904761905,
+								0.3726190476190476,
+								0.25595238095238093,
+								0.3238095238095238,
+								0.2369047619047619,
+								0.09761904761904762
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 840,
+						"height": 840,
+						"originX": 0.5,
+						"originY": 0.3595238095238095,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1452445,
+						"collisionPoly": {
+							"points": [
+								0.5095238095238095,
+								0.010714285714285714,
+								0.5988095238095238,
+								0.014285714285714285,
+								0.8547619047619047,
+								0.14642857142857144,
+								0.8404761904761905,
+								0.32142857142857145,
+								0.15833333333333333,
+								0.38333333333333336,
+								0.14166666666666666,
+								0.20476190476190476,
+								0.34404761904761905,
+								0.03214285714285714
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 761282887102098,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -3,12 +3,6 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 546411894577447
-		},
-		{
-			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-object-clicked",
@@ -37,17 +31,27 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
+					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 485011737131896,
+					"sid": 287645128143826,
 					"parameters": {
 						"mouse-button": "left",
-						"click-type": "clicked"
+						"click-type": "clicked",
+						"object-clicked": "Store"
 					}
 				}
 			],
-			"actions": [],
-			"sid": 188651266786898
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 358294757654539,
+					"parameters": {
+						"layout": "Store!"
+					}
+				}
+			],
+			"sid": 295144325451305
 		}
 	],
 	"sid": 739834765650119

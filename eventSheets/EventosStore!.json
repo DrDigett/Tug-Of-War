@@ -1,5 +1,59 @@
 {
 	"name": "EventosStore!",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 140890134271264,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sombrero_P1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 768649869422900,
+					"parameters": {
+						"variable": "SombreroSeleccionadoP1",
+						"value": "Sombrero_P1.AnimationFrame"
+					}
+				}
+			],
+			"sid": 931030881072050
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 301669489511730,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "BotonSalir"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 416285025628079,
+					"parameters": {
+						"layout": "MenuPrincipal"
+					}
+				}
+			],
+			"sid": 967991438385787
+		}
+	],
 	"sid": 651264618245944
 }

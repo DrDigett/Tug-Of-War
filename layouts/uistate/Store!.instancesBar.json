@@ -11,5 +11,26 @@
 			"layout": []
 		}
 	},
-	"instanceFolderItemsJson": []
+	"instanceFolderItemsJson": [
+		{
+			"sid": 382183456214421,
+			"expanded": true
+		},
+		{
+			"sid": 783123184966733,
+			"expanded": true
+		},
+		{
+			"sid": 894254449284484,
+			"expanded": true
+		},
+		{
+			"sid": 982291602306363,
+			"expanded": true
+		},
+		{
+			"sid": 382016879941449,
+			"expanded": true
+		}
+	]
 }
