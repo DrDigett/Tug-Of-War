@@ -279,6 +279,14 @@
 									}
 								},
 								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador2",
+									"sid": 295616241355198,
+									"parameters": {
+										"frame-number": "1"
+									}
+								},
+								{
 									"id": "wait",
 									"objectClass": "System",
 									"sid": 429156695253809,
@@ -320,6 +328,14 @@
 									"parameters": {
 										"frame-number": "0"
 									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador2",
+									"sid": 942983588028408,
+									"parameters": {
+										"frame-number": "0"
+									}
 								}
 							],
 							"sid": 121357796253697
@@ -348,6 +364,14 @@
 							"parameters": {
 								"variable": "PuntosP2",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jugador2",
+							"sid": 476871320384265,
+							"parameters": {
+								"frame-number": "1"
 							}
 						},
 						{
@@ -400,6 +424,14 @@
 							"parameters": {
 								"frame-number": "PuntosP2"
 							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jugador2",
+							"sid": 595103420106666,
+							"parameters": {
+								"frame-number": "0"
+							}
 						}
 					],
 					"sid": 516951239085002,
@@ -426,6 +458,14 @@
 									"parameters": {
 										"variable": "PosicionCuerda",
 										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador1",
+									"sid": 847144183152846,
+									"parameters": {
+										"frame-number": "1"
 									}
 								},
 								{
@@ -469,6 +509,14 @@
 									"parameters": {
 										"variable": "PuntosP2",
 										"value": "0"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador1",
+									"sid": 718180463748606,
+									"parameters": {
+										"frame-number": "0"
 									}
 								}
 							],
@@ -629,6 +677,60 @@
 				}
 			],
 			"sid": 293002378422099
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 997855573586715,
+					"parameters": {
+						"variable": "PosicionCuerda",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Jugador1",
+					"sid": 948680337491961,
+					"parameters": {
+						"frame-number": "2"
+					}
+				}
+			],
+			"sid": 399184649968509,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 395133216492867,
+					"parameters": {
+						"variable": "PosicionCuerda",
+						"comparison": 0,
+						"value": "-3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Jugador2",
+					"sid": 505388182845933,
+					"parameters": {
+						"frame-number": "2"
+					}
+				}
+			],
+			"sid": 875394543990344,
+			"isOrBlock": true
 		},
 		{
 			"eventType": "block",
