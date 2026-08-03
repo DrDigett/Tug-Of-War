@@ -79,7 +79,9 @@
 			"Contador1",
 			"Contador2",
 			"Sprite",
-			"Sprite2"
+			"Sprite2",
+			"Sprite3",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
@@ -126,7 +128,16 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "Magic Sound.ttf",
+					"type": "application/font-sfnt",
+					"sid": 354425426305197,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {

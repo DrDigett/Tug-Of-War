@@ -173,7 +173,24 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP1",
+					"sid": 366657707984738,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP2",
+					"sid": 172627995905032,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
 			"sid": 643765502751373,
 			"children": [
 				{
@@ -207,22 +224,6 @@
 							"parameters": {
 								"variable": "RondaActiva",
 								"value": "false"
-							}
-						},
-						{
-							"id": "set-text",
-							"objectClass": "TextoP2",
-							"sid": 378748084689986,
-							"parameters": {
-								"text": "\"\""
-							}
-						},
-						{
-							"id": "set-text",
-							"objectClass": "TextoP1",
-							"sid": 114303683898071,
-							"parameters": {
-								"text": "\"\""
 							}
 						},
 						{
@@ -624,11 +625,46 @@
 			],
 			"actions": [
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 995357972183639,
+					"parameters": {
+						"seconds": "choose(3,4,5,6,7,8)",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 110471005272941,
+					"parameters": {
+						"variable": "MetaP1",
+						"value": "ArrayP1.At(int(random(4)))"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 537847316171263,
+					"parameters": {
+						"variable": "MetaP2",
+						"value": "ArrayP2.At(int(random(4)))"
+					}
+				},
+				{
 					"id": "set-text",
 					"objectClass": "TextoP1",
 					"sid": 971285883207000,
 					"parameters": {
 						"text": "Keyboard.StringFromKeyCode(MetaP1)"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP1",
+					"sid": 185182056422844,
+					"parameters": {
+						"visibility": "visible"
 					}
 				},
 				{
@@ -640,30 +676,11 @@
 					}
 				},
 				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 957602233706459,
+					"id": "set-visible",
+					"objectClass": "TextoP2",
+					"sid": 781740959783637,
 					"parameters": {
-						"seconds": "choose(3,4,5,6,7,8)",
-						"use-timescale": true
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 986704238514651,
-					"parameters": {
-						"variable": "MetaP1",
-						"value": "ArrayP1.At(int(random(4)))"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 477773226895322,
-					"parameters": {
-						"variable": "MetaP2",
-						"value": "ArrayP2.At(int(random(4)))"
+						"visibility": "visible"
 					}
 				},
 				{
@@ -797,6 +814,22 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP2",
+					"sid": 950868281749039,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP1",
+					"sid": 539850813506791,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Jugador1",
