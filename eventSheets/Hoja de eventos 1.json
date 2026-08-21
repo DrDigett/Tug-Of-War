@@ -524,6 +524,77 @@
 							"sid": 176583341299428
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 771750585298508,
+							"parameters": {
+								"first-value": "Keyboard.LastKeyCode",
+								"comparison": 1,
+								"second-value": "MetaP1"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 102585547787760,
+							"parameters": {
+								"first-value": "Keyboard.LastKeyCode",
+								"comparison": 1,
+								"second-value": "MetaP2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP1",
+							"sid": 950050914168565,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP2",
+							"sid": 550279012939823,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 919144941287999,
+							"parameters": {
+								"variable": "MetaP1",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 862639202936148,
+							"parameters": {
+								"variable": "MetaP2",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 721260206508965,
+							"parameters": {
+								"variable": "RondaActiva",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 999647181866421
 				}
 			]
 		},
@@ -556,25 +627,25 @@
 				{
 					"id": "set-x",
 					"objectClass": "Jugador1",
-					"sid": 598705683694069,
+					"sid": 727216799576303,
 					"parameters": {
-						"x": "400 + (PosicionCuerda * 150)"
+						"x": "433 + (PosicionCuerda * 150)"
 					}
 				},
 				{
 					"id": "set-x",
 					"objectClass": "Jugador2",
-					"sid": 435738394669809,
+					"sid": 237677619060046,
 					"parameters": {
-						"x": "1500 + (PosicionCuerda * 150)"
+						"x": "1480 + (PosicionCuerda * 150)"
 					}
 				},
 				{
 					"id": "set-x",
 					"objectClass": "TiledBackground",
-					"sid": 393882504273456,
+					"sid": 324056251970133,
 					"parameters": {
-						"x": "901 + (PosicionCuerda * 150)"
+						"x": "960 + (PosicionCuerda * 150)"
 					}
 				},
 				{
@@ -627,9 +698,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 995357972183639,
+					"sid": 209625242758223,
 					"parameters": {
-						"seconds": "choose(3,4,5,6,7,8)",
+						"seconds": "choose(2,3,4)",
 						"use-timescale": true
 					}
 				},

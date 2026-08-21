@@ -23,10 +23,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 959,
-						"y": 621,
-						"width": 2087.5063308911913,
-						"height": 1411.5518999359488,
+						"x": 960,
+						"y": 540,
+						"width": 1920,
+						"height": 1080,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -60,39 +60,6 @@
 						"y": 362,
 						"width": 780.9594945679589,
 						"height": 607.4129402195234,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "Jugar",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"sid": 594805360519075,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 960,
-						"y": 777.8061330481027,
-						"width": 506.55269789115783,
-						"height": 329.3076812294334,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -155,8 +122,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 963,
-						"y": 1175,
+						"x": 971,
+						"y": 939,
 						"width": 714.5156132569628,
 						"height": 308.00236732019164,
 						"originX": 0.5,
@@ -168,6 +135,39 @@
 							1
 						],
 						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Jugar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"sid": 594805360519075,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 960,
+						"y": 777.8061330481027,
+						"width": 506.55269789115783,
+						"height": 329.3076812294334,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 1,
 						"angle": 0
 					}
 				},
@@ -188,10 +188,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 954,
-						"y": 1187,
-						"width": 2098.433760975764,
-						"height": 282.28930355983493,
+						"x": 951,
+						"y": 949,
+						"width": 1923.383385541007,
+						"height": 258.7408601977783,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -240,7 +240,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Store!",
+						"text": "Store",
 						"enable-bbcode": true,
 						"font": "Magic Sound",
 						"size": 35,
@@ -289,7 +289,7 @@
 				{
 					"type": "BotonJugar",
 					"properties": {
-						"text": "JUGAR",
+						"text": "Play !",
 						"enable-bbcode": true,
 						"font": "Magic Sound",
 						"size": 37,
@@ -319,7 +319,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 749,
+						"x": 754,
 						"y": 725,
 						"width": 415.0865909960918,
 						"height": 96.45918277815883,
