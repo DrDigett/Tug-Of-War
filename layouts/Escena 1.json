@@ -412,9 +412,75 @@
 					}
 				},
 				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 42,
+					"sid": 220953091934632,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1480,
+						"y": 498,
+						"width": 193.5292965836149,
+						"height": 187.7189481873401,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 1,
+						"angle": 0
+					}
+				},
+				{
+					"type": "TextoP",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 1,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"sid": 750279585359115,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1480,
+						"y": 498,
+						"width": 142.00433535665553,
+						"height": 152.49072536920104,
+						"originX": 0.4949238578680203,
+						"originY": 0.4875,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 1,
+						"angle": 0
+					}
+				},
+				{
 					"type": "TextoP2",
 					"properties": {
-						"text": "Text",
+						"text": "-",
 						"enable-bbcode": true,
 						"font": "Magic Sound",
 						"size": 58,
@@ -444,9 +510,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1472.3390298242189,
-						"y": 498.051117,
-						"width": 529.654851236286,
+						"x": 2266,
+						"y": 394,
+						"width": 130.0534328453088,
 						"height": 172.78687467033956,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -491,7 +557,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"showing": true,
-					"locked": false,
+					"locked": true,
 					"world": {
 						"x": 422.3237095965844,
 						"y": 498.05111657707334,

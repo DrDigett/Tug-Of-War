@@ -175,6 +175,22 @@
 			],
 			"actions": [
 				{
+					"id": "set-animation-frame",
+					"objectClass": "TextoP",
+					"sid": 493609294994170,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP",
+					"sid": 541697194804771,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
 					"id": "set-visible",
 					"objectClass": "TextoP1",
 					"sid": 366657707984738,
@@ -401,6 +417,22 @@
 							}
 						},
 						{
+							"id": "set-visible",
+							"objectClass": "TextoP",
+							"sid": 373800021143265,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "TextoP",
+							"sid": 263986628822876,
+							"parameters": {
+								"frame-number": "0"
+							}
+						},
+						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
 							"sid": 155266555276444,
@@ -531,17 +563,145 @@
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 771750585298508,
+							"sid": 940967979516116,
 							"parameters": {
-								"first-value": "Keyboard.LastKeyCode",
+								"first-value": "MetaP1",
 								"comparison": 1,
-								"second-value": "MetaP1"
+								"second-value": "0"
+							}
+						},
+						{
+							"id": "contains-value",
+							"objectClass": "ArrayP1",
+							"sid": 468614579995547,
+							"parameters": {
+								"value": "Keyboard.LastKeyCode"
 							}
 						},
 						{
 							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 102585547787760,
+							"sid": 287149455778331,
+							"parameters": {
+								"first-value": "Keyboard.LastKeyCode",
+								"comparison": 1,
+								"second-value": "MetaP1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 654495364602377,
+							"parameters": {
+								"variable": "PuntosP2",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 317373268513217,
+							"parameters": {
+								"variable": "RondaActiva",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP1",
+							"sid": 124321344962486,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP2",
+							"sid": 354387603858011,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP",
+							"sid": 312400535370508,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "TextoP",
+							"sid": 934579844606972,
+							"parameters": {
+								"frame-number": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 544236722831976,
+							"parameters": {
+								"variable": "MetaP2",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 965999106636137,
+							"parameters": {
+								"variable": "MetaP1",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Contador2",
+							"sid": 955345365125593,
+							"parameters": {
+								"frame-number": "PuntosP2"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jugador2",
+							"sid": 480354346639087,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 450308705480414
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 186268333909441,
+							"parameters": {
+								"first-value": "MetaP2",
+								"comparison": 1,
+								"second-value": "0"
+							}
+						},
+						{
+							"id": "contains-value",
+							"objectClass": "ArrayP2",
+							"sid": 393405577230529,
+							"parameters": {
+								"value": "Keyboard.LastKeyCode"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 978636988965825,
 							"parameters": {
 								"first-value": "Keyboard.LastKeyCode",
 								"comparison": 1,
@@ -551,25 +711,59 @@
 					],
 					"actions": [
 						{
-							"id": "set-visible",
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 689739729367868,
+							"parameters": {
+								"variable": "PuntosP1",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 898143146268712,
+							"parameters": {
+								"variable": "RondaActiva",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-text",
 							"objectClass": "TextoP1",
-							"sid": 950050914168565,
+							"sid": 486737022917329,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP2",
+							"sid": 745181300686477,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP",
+							"sid": 730015003226768,
 							"parameters": {
 								"visibility": "invisible"
 							}
 						},
 						{
-							"id": "set-visible",
-							"objectClass": "TextoP2",
-							"sid": 550279012939823,
+							"id": "set-animation-frame",
+							"objectClass": "TextoP",
+							"sid": 850662706985583,
 							"parameters": {
-								"visibility": "invisible"
+								"frame-number": "0"
 							}
 						},
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 919144941287999,
+							"sid": 574687987763539,
 							"parameters": {
 								"variable": "MetaP1",
 								"value": "0"
@@ -578,23 +772,30 @@
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
-							"sid": 862639202936148,
+							"sid": 460760666115025,
 							"parameters": {
 								"variable": "MetaP2",
 								"value": "0"
 							}
 						},
 						{
-							"id": "set-boolean-eventvar",
-							"objectClass": "System",
-							"sid": 721260206508965,
+							"id": "set-animation-frame",
+							"objectClass": "Contador1",
+							"sid": 626066510898625,
 							"parameters": {
-								"variable": "RondaActiva",
-								"value": "false"
+								"frame-number": "PuntosP1"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jugador2",
+							"sid": 601767201719232,
+							"parameters": {
+								"frame-number": "0"
 							}
 						}
 					],
-					"sid": 999647181866421
+					"sid": 654833385822389
 				}
 			]
 		},
@@ -627,25 +828,25 @@
 				{
 					"id": "set-x",
 					"objectClass": "Jugador1",
-					"sid": 727216799576303,
+					"sid": 517784656765085,
 					"parameters": {
-						"x": "433 + (PosicionCuerda * 150)"
+						"x": "433 + (PosicionCuerda * 90)"
 					}
 				},
 				{
 					"id": "set-x",
 					"objectClass": "Jugador2",
-					"sid": 237677619060046,
+					"sid": 444915864707189,
 					"parameters": {
-						"x": "1480 + (PosicionCuerda * 150)"
+						"x": "1480 + (PosicionCuerda * 90)"
 					}
 				},
 				{
 					"id": "set-x",
 					"objectClass": "TiledBackground",
-					"sid": 324056251970133,
+					"sid": 301505130058471,
 					"parameters": {
-						"x": "960 + (PosicionCuerda * 150)"
+						"x": "960 + (PosicionCuerda * 90)"
 					}
 				},
 				{
@@ -695,6 +896,14 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "TextoP",
+					"sid": 973417825464452,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
 				{
 					"id": "wait",
 					"objectClass": "System",
@@ -755,12 +964,28 @@
 					}
 				},
 				{
+					"id": "set-visible",
+					"objectClass": "TextoP",
+					"sid": 329008527194157,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",
 					"sid": 449980905189059,
 					"parameters": {
 						"variable": "RondaActiva",
 						"value": "true"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "TextoP",
+					"sid": 445315870037823,
+					"parameters": {
+						"frame-number": "MetaP2 = 37 ? 4 : MetaP2 - 37"
 					}
 				}
 			],
