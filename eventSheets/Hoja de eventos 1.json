@@ -675,7 +675,95 @@
 							}
 						}
 					],
-					"sid": 450308705480414
+					"sid": 450308705480414,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 459354882424306,
+									"parameters": {
+										"variable": "PuntosP2",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 287883907374857,
+									"parameters": {
+										"variable": "PosicionCuerda",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador1",
+									"sid": 393965626857634,
+									"parameters": {
+										"frame-number": "1"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 789863484619082,
+									"parameters": {
+										"seconds": "1.0",
+										"use-timescale": true
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Contador2",
+									"sid": 654599703018835,
+									"parameters": {
+										"frame-number": "0"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Contador1",
+									"sid": 690241263509821,
+									"parameters": {
+										"frame-number": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 489485553397161,
+									"parameters": {
+										"variable": "PuntosP1",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 101285531848191,
+									"parameters": {
+										"variable": "PuntosP2",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador1",
+									"sid": 683905992586938,
+									"parameters": {
+										"frame-number": "0"
+									}
+								}
+							],
+							"sid": 325024473943006
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -795,7 +883,95 @@
 							}
 						}
 					],
-					"sid": 654833385822389
+					"sid": 654833385822389,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 224673459752022,
+									"parameters": {
+										"variable": "PuntosP1",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 829354165688977,
+									"parameters": {
+										"variable": "PosicionCuerda",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador2",
+									"sid": 353859728644910,
+									"parameters": {
+										"frame-number": "1"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 881108978373427,
+									"parameters": {
+										"seconds": "1.0",
+										"use-timescale": true
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 955917730090404,
+									"parameters": {
+										"variable": "PuntosP1",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 175218523074459,
+									"parameters": {
+										"variable": "PuntosP2",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Contador1",
+									"sid": 913235337158004,
+									"parameters": {
+										"frame-number": "0"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Contador2",
+									"sid": 758226078972021,
+									"parameters": {
+										"frame-number": "0"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jugador2",
+									"sid": 111149123838717,
+									"parameters": {
+										"frame-number": "0"
+									}
+								}
+							],
+							"sid": 962874197470173
+						}
+					]
 				}
 			]
 		},
