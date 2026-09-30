@@ -173,40 +173,7 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "TextoP",
-					"sid": 493609294994170,
-					"parameters": {
-						"frame-number": "0"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "TextoP",
-					"sid": 541697194804771,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "TextoP1",
-					"sid": 366657707984738,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "TextoP2",
-					"sid": 172627995905032,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 643765502751373,
 			"children": [
 				{
@@ -231,6 +198,54 @@
 							"parameters": {
 								"variable": "PuntosP1",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP1",
+							"sid": 738412009561001,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoP2",
+							"sid": 738412009561002,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP",
+							"sid": 738412009561003,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "TextoP",
+							"sid": 738412009561004,
+							"parameters": {
+								"frame-number": "0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP1",
+							"sid": 738412009561005,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP2",
+							"sid": 738412009561006,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						},
 						{
@@ -430,6 +445,22 @@
 							"sid": 263986628822876,
 							"parameters": {
 								"frame-number": "0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP1",
+							"sid": 738412009561007,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP2",
+							"sid": 738412009561008,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						},
 						{
@@ -641,6 +672,22 @@
 							}
 						},
 						{
+							"id": "set-visible",
+							"objectClass": "TextoP1",
+							"sid": 738412009561009,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP2",
+							"sid": 738412009561010,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
 							"sid": 544236722831976,
@@ -846,6 +893,22 @@
 							"sid": 850662706985583,
 							"parameters": {
 								"frame-number": "0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP1",
+							"sid": 738412009561011,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TextoP2",
+							"sid": 738412009561012,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						},
 						{
